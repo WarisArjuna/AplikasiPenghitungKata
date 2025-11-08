@@ -1,0 +1,9 @@
+Hari ini aku belajar Java di kampus. Java sangat menyenangkan! 
+Aku membuat aplikasi penghitungan kata untuk tugas pemrograman.
+Semoga hasilnya sesuai dengan harapan dosen.
+
+=== HASIL PERHITUNGAN ===
+Kata : 24
+Karakter : 172
+Kalimat : 4
+Paragraf : 3

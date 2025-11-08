@@ -1,0 +1,14 @@
+Pagi ini aku minum kopi. Rasanya enak! 
+Lalu aku menulis program Java.
+
+Siang harinya, aku makan siang bersama teman-teman. 
+Kami berdiskusi tentang algoritma, dan menulis pseudocode.
+
+Sore, aku lanjut debugging. 
+Program akhirnya berjalan sempurna!
+
+=== HASIL PERHITUNGAN ===
+Kata : 34
+Karakter : 249
+Kalimat : 7
+Paragraf : 6

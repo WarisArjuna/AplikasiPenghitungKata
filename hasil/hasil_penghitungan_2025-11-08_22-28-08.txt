@@ -1,0 +1,11 @@
+Pemrograman Java memang menarik. Java mudah dipahami dan banyak digunakan di dunia kerja. 
+Setiap hari aku belajar Java agar semakin paham dasar-dasarnya.
+
+Java bukan hanya bahasa, tapi juga cara berpikir logis yang terstruktur. 
+Karena itu aku akan terus berlatih Java setiap hari!
+
+=== HASIL PERHITUNGAN ===
+Kata : 42
+Karakter : 282
+Kalimat : 5
+Paragraf : 4

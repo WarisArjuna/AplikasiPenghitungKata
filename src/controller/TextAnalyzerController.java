@@ -89,7 +89,7 @@ public class TextAnalyzerController {
 
     private void simpanFile() {
         try {
-            String teks = view.getTxtInput().getText();
+            String teks = view.getTxtInput().getText().trim();
 
             if (teks.isBlank() || teks.equalsIgnoreCase("Ketik teks di sini...")) {
                 JOptionPane.showMessageDialog(view,
@@ -98,21 +98,25 @@ public class TextAnalyzerController {
                 return;
             }
 
-            // 🔥 Buat folder hasil otomatis kalau belum ada
+            // 🗂️ Buat folder "hasil" kalau belum ada
             java.io.File folder = new java.io.File("hasil");
             if (!folder.exists()) {
                 folder.mkdir();
             }
 
-            // Simpan file ke dalam folder hasil
-            java.io.File file = new java.io.File(folder, "hasil_penghitungan.txt");
+            // 🕒 Buat nama file unik berdasarkan waktu sekarang
+            java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
+            String waktu = sdf.format(new java.util.Date());
+            String namaFile = "hasil_penghitungan_" + waktu + ".txt";
+
+            java.io.File file = new java.io.File(folder, namaFile);
             java.io.FileWriter fw = new java.io.FileWriter(file);
 
             fw.write(teks + "\n\n=== HASIL PERHITUNGAN ===\n" + model.hasilLengkap(teks));
             fw.close();
 
             JOptionPane.showMessageDialog(view,
-                    "File berhasil disimpan di folder 'hasil'!\n\nLokasi: " + file.getAbsolutePath(),
+                    "File berhasil disimpan!\n\nLokasi: " + file.getAbsolutePath(),
                     "Berhasil", JOptionPane.INFORMATION_MESSAGE);
 
         } catch (Exception e) {
