@@ -1,0 +1,9 @@
+Hari ini aku belajar Java. Aku sangat suka Java karena Java mudah dipahami. 
+Temanku juga belajar Java setiap hari agar semakin jago dalam Java programming!
+
+
+=== HASIL PERHITUNGAN ===
+Kata : 25
+Karakter : 157
+Kalimat : 4
+Paragraf : 2
